@@ -7,13 +7,15 @@
 
 import Foundation
 import SwiftUI
+import UIKit
 import AVFoundation
 
 var player: AVAudioPlayer?
 
-func playSound() {
+//play certain note
+func playSound(note: String) {
     
-    let path = Bundle.main.path(forResource: "beep-01a.wav", ofType:nil)!
+    let path = Bundle.main.path(forResource: "\(note).mp3", ofType:nil)!
     let url = URL(fileURLWithPath: path)
     
     do {
@@ -33,20 +35,23 @@ struct MorseView: View {
         VStack {
 
             Text("Morse")
-
+            
                 .font(.largeTitle)
-
+            
                 .fontWeight(.bold)
-
+            
                 .padding()
-
-        }
+            
+            
+            //buttons
+            Button("testing") {
+                
+                print("pressed")
+                
+                playSound(note: "A1")
+                
+            }
         
-        
-        
-        Button("testing") {
-            print("pressed")
-            playSound()
         }
 
 
