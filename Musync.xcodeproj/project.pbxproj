@@ -212,9 +212,9 @@
 		AA22482C2A450F1300F992D5 /* Musync */ = {
 			isa = PBXGroup;
 			children = (
-				B0B9CB6B2A453958005039A7 /* MorseView */,
 				AA22482D2A450F1300F992D5 /* MusyncApp.swift */,
 				AA22485B2A4510A500F992D5 /* HomeView.swift */,
+				B0B9CB6B2A453958005039A7 /* MorseView */,
 				AA22485D2A45116D00F992D5 /* ScalesView.swift */,
 				AA2248612A4511C400F992D5 /* MetronomeView.swift */,
 				AA2248632A4511E700F992D5 /* GameView.swift */,

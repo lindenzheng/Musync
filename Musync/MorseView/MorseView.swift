@@ -44,14 +44,62 @@ struct MorseView: View {
             
             
             //buttons
-            Button("testing") {
-                
-                print("pressed")
-                
-                playSound(note: "A1")
-                
-            }
-        
+            Button(action: {
+                print("tapped!")
+            }, label: {
+            Text("a")
+                .foregroundColor(.red)
+                .frame(width: 200, height: 40)
+            })
+            
+            Button(action: {
+                print("tapped!")
+            }, label: {
+            Text("b")
+                .foregroundColor(.red)
+                .frame(width: 200, height: 40)
+            })
+            
+            Button(action: {
+                print("tapped!")
+            }, label: {
+            Text("c")
+                .foregroundColor(.red)
+                .frame(width: 200, height: 40)
+            })
+            
+            Button(action: {
+                print("tapped!")
+            }, label: {
+            Text("d")
+                .foregroundColor(.red)
+                .frame(width: 200, height: 40)
+            })
+            
+            Button(action: {
+                print("tapped!")
+            }, label: {
+            Text("e")
+                .foregroundColor(.red)
+                .frame(width: 200, height: 40)
+            })
+            
+            Button(action: {
+                print("tapped!")
+            }, label: {
+            Text("f")
+                .foregroundColor(.red)
+                .frame(width: 200, height: 40)
+            })
+            
+            Button(action: {
+                print("tapped!")
+            }, label: {
+            Text("g")
+                .foregroundColor(.red)
+                .frame(width: 200, height: 40)
+            })
+            
         }
 
 
